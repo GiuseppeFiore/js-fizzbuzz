@@ -7,3 +7,16 @@
 //  Consigli del giorno: scriviamo sempre prima dei commenti in italiano 
 //  per capire cosa vogliamo fare proviamo ad immaginare le operazioni che 
 //  vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+// Scriviamo un programma che stampi i numeri da 1 a 100
+// Uso il ciclo for spiegato oggi per effettuare questa operazione
+// Creo un for inserendo una variabile "i" all'interno che parte da 1.
+// Il ciclo continua finchè "i" è minore o uguale a 100. Uguale oper permettere la visualizzazione anche del n100
+// Con i++ incremento il valore di "i" ad ogni giro di 1 
+for (let i = 1; i <= 100; i++) {
+}
+
+
+
+
