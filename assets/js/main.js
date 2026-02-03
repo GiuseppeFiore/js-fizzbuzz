@@ -20,8 +20,24 @@ for (let i = 1; i <= 100; i++) {
 // Se il numero è multiplo sia di 3 che di 5 deve dare resto zero
 // Uso un operatore logico "&" che restituisce il valore "true" se entrambi gli operatori sono veri
 // Altrimenti restituisce "false"
-// Se la condizione è vera cioè divisibile per entrambi sia 3 che 5 stamperà "FizzBuzz"
+// Se la condizione è vera cioè divisibile per entrambi sia 3 che 5 stamperà in console "FizzBuzz"
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
+  
+// Se il numero è solo multiplo di 3 deve stampare in console "Fizz"
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
   }
+
+  // Se il numero è solo multiplo di 5 deve stampare in console "buzz"
+  else if (i % 5 === 0) {
+    console.log("Buzz")
+    }
+
+    
+
+
+
+
+
 }
