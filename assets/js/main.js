@@ -11,12 +11,17 @@
 
 // Scriviamo un programma che stampi i numeri da 1 a 100
 // Uso il ciclo for spiegato oggi per effettuare questa operazione
-// Creo un for inserendo una variabile "i" all'interno che parte da 1.
-// Il ciclo continua finchè "i" è minore o uguale a 100. Uguale oper permettere la visualizzazione anche del n100
-// Con i++ incremento il valore di "i" ad ogni giro di 1 
+// Creo un ciclo "for" inserendo una variabile "i" all'interno che parte da 1.
+// Il ciclo continua finchè "i" è minore o uguale a 100. Uguale per permettere la visualizzazione anche del numero 100
+// Con "i++" incremento il valore di "i" ad ogni giro di 1 
 for (let i = 1; i <= 100; i++) {
+
+// Creo una condizione "if" con un operatore modulo "%" utilizzato per calcolare il resto di una divisione e per capire
+// Se il numero è multiplo sia di 3 che di 5 deve dare resto zero
+// Uso un operatore logico "&" che restituisce il valore "true" se entrambi gli operatori sono veri
+// Altrimenti restituisce "false"
+// Se la condizione è vera cioè divisibile per entrambi sia 3 che 5 stamperà "FizzBuzz"
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  }
 }
-
-
-
-
