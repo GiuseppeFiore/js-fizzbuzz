@@ -25,13 +25,13 @@ for (let i = 1; i <= 100; i++) {
     console.log("FizzBuzz");
 
 // Se il numero è solo multiplo di 3 deve stampare in console "Fizz"
-// Con l'aggiunta dell'operatore relazionale "!==" restitutisce "Falso" perchè il dato (stringa o numero) è uguale a tre e non diverso. 
+// Con l'aggiunta dell'operatore relazionale "!==" restitutisce "Falso" perchè il dato (stringa o numero) è uguale a tre e non diverso o multiplo. 
     } else if (i % 3 === 0 && i !== 3) {
     console.log("Fizz");
     }
 
 // Se il numero è solo multiplo di 5 deve stampare in console "buzz"
-// Con l'aggiunta dell'operatore relazionale "!==" restitutisce "Falso" perchè il dato (stringa o numero) è uguale a cinque e non diverso.
+// Con l'aggiunta dell'operatore relazionale "!==" restitutisce "Falso" perchè il dato (stringa o numero) è uguale a cinque e non diverso o multiplo.
     else if (i % 5 === 0 && i !== 5) {
     console.log("Buzz")
     }
