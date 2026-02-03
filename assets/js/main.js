@@ -21,23 +21,21 @@ for (let i = 1; i <= 100; i++) {
 // Uso un operatore logico "&" che restituisce il valore "true" se entrambi gli operatori sono veri
 // Altrimenti restituisce "false"
 // Se la condizione è vera cioè divisibile per entrambi sia 3 che 5 stamperà in console "FizzBuzz"
-  if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
-  
-// Se il numero è solo multiplo di 3 deve stampare in console "Fizz"
-  } else if (i % 3 === 0) {
-    console.log("Fizz");
-  }
 
-  // Se il numero è solo multiplo di 5 deve stampare in console "buzz"
-  else if (i % 5 === 0) {
+// Se il numero è solo multiplo di 3 deve stampare in console "Fizz"
+    } else if (i % 3 === 0) {
+    console.log("Fizz");
+    }
+
+// Se il numero è solo multiplo di 5 deve stampare in console "buzz"
+    else if (i % 5 === 0) {
     console.log("Buzz")
     }
 
-    
-
-
-
-
-
+// Altrimenti stampo il numero normale se non è ne divisibile per 3 che per 5
+    else {
+    console.log(i);
+    }  
 }
